@@ -28,7 +28,6 @@ public class Accountcreationpage {
 	       PageFactory.initElements( driver, this);
 	   }
 	   
-	   
 	   @FindBy(how=How.ID,using="company_name")
 	   private WebElement companyname;
 	   
